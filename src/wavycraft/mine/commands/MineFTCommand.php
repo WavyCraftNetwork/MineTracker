@@ -20,7 +20,7 @@ class MineFTCommand extends Command implements PluginOwned {
     }
 
     public function getOwningPlugin() : plugin{
-        return Crops::getInstance();
+        return Mine::getInstance();
     }
 
     public function execute(CommandSender $sender, string $label, array $args) : bool{
