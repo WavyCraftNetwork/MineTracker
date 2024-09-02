@@ -5,7 +5,7 @@ api: 5.0.0
 main: wavycraft\mine\Mine
 
 permissions:
-  minertracker.oresft:
+  minetracker.oresft:
     default: op
-  minertracker.ores:
+  minetracker.ores:
     default: true
